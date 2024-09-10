@@ -1,0 +1,83 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Nav Bar */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f37070;
+    padding: 15px 0;
+    z-index: 1000;
+    transition: background-color 0.5s, font-size 0.5s;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s, font-size 0.3s;
+  }
+  
+  /* Hover effect */
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+    font-size: 20px; /* Font size changes on hover */
+  }
+  
+  /* Scroll effect */
+  .scrolled {
+    background-color: #222; /* Changes color when scrolled */
+    font-size: 16px; /* Font size reduces on scroll */
+  }
+  
+  /* Section styles */
+  section {
+    padding: 100px 20px;
+    min-height: 100vh;
+  }
+  
+  #home {
+    background-color: #229565;
+  }
+  
+  #about {
+    background-color: #9e39c6;
+  }
+  
+  #services {
+    background-color: #9f730eef;
+  }
+  
+  #contact {
+    background-color: #f53333;
+  }
+  
+  /* Section headings */
+  h1 {
+    font-size: 36px;
+    color: #f2cece;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #d19696;
+  }
+  
